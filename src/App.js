@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./style/style.css";
 const App = () => {
   return (
     <div>
-      <h1 style={{ color: "red", fontSize: "10rem" }}>MY Profile</h1>
+      <h1>MY Profile</h1>
       <p>My name is rui.</p>
       <p>I am 25 years old.</p>
     </div>
