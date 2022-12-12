@@ -1,28 +1,11 @@
 import React from "react";
 
 const App = () => {
-  // const buttonHandler = (e) => {
-  //   e.preventDefault();
-  //   let date = new Date().toLocaleDateString();
-  //   alert(date);
-  // };
-  const buttonHandler = (msg) => {
-    alert(msg);
-  };
+  let name = "rui lee";
   return (
     <div>
-      {/* <form action="">
-        <input type="text" />
-        <button onClick={buttonHandler}> Submit</button>
-      </form> */}
-      <button
-        onClick={() => {
-          buttonHandler("Hello,how are you?");
-        }}
-      >
-        Hello
-      </button>
-      <p></p>
+      <h1 id="myName">{name}</h1>
+      <button id="changeName">change Name</button>
     </div>
   );
 };
